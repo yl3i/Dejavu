@@ -1,17 +1,17 @@
 <div class="pfa_tc">
 	<table>
-			<tbody><tr><td class="r"></td><td class="r"></td><td class="r"></td><td class="r"></td><td class="r"></td><td class="r"></td><td class="r"></td><td class="r"></td><td class="r"></td><td class="r"></td><td class="r"></td><td class="r"></td><td class="r"></td></tr>
-			<tr><td class="r"></td><td class="r"></td><td class="r"></td><td class="r"></td><td class="r"></td><td class="r"></td><td class="r"></td><td class="r"></td><td class="r"></td><td></td><td></td><td></td><td></td></tr>
-			<tr><td class="r"></td><td class="r"></td><td class="r"></td><td class="r"></td><td class="r"></td><td class="r"></td><td class="r"></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-			<tr><td class="r"></td><td class="r"></td><td class="r"></td><td class="r"></td><td class="r"></td><td class="r"></td><td>27</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-			<tr><td class="r"></td><td class="r"></td><td class="r"></td><td class="r"></td><td class="r"></td><td class="r"></td><td class="r"></td><td>4</td><td></td><td></td><td></td><td></td><td></td></tr>
-			<tr><td class="r"></td><td></td><td></td><td></td><td></td><td class="r"></td><td class="r"></td><td class="r"></td><td></td><td></td><td></td><td></td><td></td></tr>
-			<tr><td></td><td></td><td></td><td></td><td></td><td></td><td class="r"></td><td class="r"></td><td>17</td><td></td><td></td><td></td><td></td></tr>
-			<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="r"></td><td class="r"></td><td></td><td></td><td></td><td></td></tr>
-			<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="r"></td><td class="r"></td><td></td><td></td><td></td></tr>
-			<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="r"></td><td class="r"></td><td></td><td></td></tr>
-			<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="r"></td><td></td><td></td></tr>
-			<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="r"></td><td></td></tr>
-			<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="r"></td></tr>
+			<tbody><tr><td class="r"></td><td class="r"></td><td class="c"></td><td class="c"></td><td class="c"></td><td class="c"></td><td class="c"></td><td class="c"></td><td class="c"></td><td class="c"></td><td class="c"></td><td class="c">8</td><td class="c">32</td></tr>
+			<tr><td class="r"></td><td class="c">96</td><td class="c"></td><td class="c"></td><td class="c"></td><td class="c"></td><td class="c"></td><td class="c"></td><td class="c">4</td><td></td><td></td><td></td><td>63</td></tr>
+			<tr><td class="c"></td><td class="c"></td><td class="c">93</td><td class="c"></td><td class="c"></td><td class="c"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+			<tr><td class="c"></td><td>6</td><td></td><td class="c">84</td><td class="c"></td><td class="c"></td><td class="c"></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+			<tr><td></td><td></td><td>3</td><td></td><td class="c"></td><td class="c"></td><td class="c"></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+			<tr><td></td><td></td><td></td><td></td><td></td><td class="c"></td><td class="c"></td><td class="c"></td><td></td><td></td><td></td><td></td><td></td></tr>
+			<tr><td>9</td><td></td><td></td><td></td><td></td><td></td><td class="c"></td><td class="c"></td><td class="c"></td><td></td><td></td><td></td><td></td></tr>
+			<tr><td>8</td><td></td><td></td><td></td><td></td><td></td><td></td><td class="c"></td><td class="c"></td><td class="c"></td><td></td><td></td><td></td></tr>
+			<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="c"></td><td class="c"></td><td class="c"></td><td></td><td></td></tr>
+			<tr><td>20</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="c"></td><td class="c"></td><td class="c"></td><td></td></tr>
+			<tr><td>21</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="c"></td><td class="c"></td><td></td></tr>
+			<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="c"></td><td></td></tr>
+			<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="c"></td></tr>
 		</tbody></table>
 </div>

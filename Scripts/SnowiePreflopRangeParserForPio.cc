@@ -52,6 +52,7 @@ const std::string HEAD = "<tbody>";
 const std::string TAIL = "</tbody>";
 const std::string ENTRY = "</td>";
 const std::string RAISE = "class=\"r\"";
+const std::string CALL = "class=\"c\"";
 
 std::string getNext(std::string& s) {
   auto pos = s.find(ENTRY);
@@ -61,10 +62,11 @@ std::string getNext(std::string& s) {
   return answer;
 }
 
-double getFreq(std::string& token) {
-  if (token.find(RAISE) != std::string::npos) {
+// type 0: raise freq, type 1: call freq
+double getFreq(std::string& token, int type = 0) {
+  if (type == 0 && token.find(RAISE) != std::string::npos) {
     return 1.0;
-  } else {
+  } else if (type == 0) {
     auto pos = token.find('>');
     if (token[pos + 1] != '<') {
       auto nextPos = token.find(pos + 1, '<');
@@ -72,7 +74,16 @@ double getFreq(std::string& token) {
       return 1.0 * std::stoi(freq) / 100;
     }
     return 0;
+  } else if (type == 1 && token.find(CALL) != std::string::npos) {
+    auto pos = token.find('>');
+    if (token[pos + 1] != '<') {
+      auto nextPos = token.find(pos + 1, '<');
+      auto freq = token.substr(pos + 1, nextPos - pos);
+      return 1.0 - 1.0 * std::stoi(freq) / 100;
+    }
+    return 1.0;
   }
+  return 0;
 }
 
 char getCard(int id) {
@@ -102,7 +113,7 @@ std::string getEntry(int a, int b, double freq) {
   return answer;
 }
 
-int main() {
+int main(int argc, char* argv[]) {
   std::ios::sync_with_stdio(0);
   std::string s;
   bool ready = 0;
@@ -121,7 +132,7 @@ int main() {
     if (ready) {
       for (int col = 14; col >= 2; --col) {
         auto token = getNext(s);
-        auto freq = getFreq(token);
+        auto freq = getFreq(token, argv[1][0] - '0');
         std::cout << getEntry(row, col, freq);
       }
       --row;
