@@ -49,7 +49,7 @@ int main() {
         for (auto b: cards[j]) {
           if (a == b) continue;
           std::string s;
-          s = s + a + 'c' + a + 's' + b + "h:1";
+          s = s + a + 'c' + a + 'h' + b + "h:1";
           board[i][j][std::abs(getRank(a) - getRank(b)) < 5].push_back(s);
         }
       }
@@ -64,7 +64,7 @@ int main() {
         s += j == 1 ? "Low" : "High";
         s += "_";
         s += k == 1 ? "Connected" : "Disconnected";
-        s += "_Rainbow";
+        s += "_2tone";
         std::cerr << s << " has " << board[i][j][k].size() << " entries." << std::endl;
         freopen(s.c_str(), "w", stdout);
         for (auto entry: board[i][j][k]) {
